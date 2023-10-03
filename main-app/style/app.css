@@ -1,0 +1,196 @@
+.bottom-tab[data-v-7dd2e39c] {
+    width: 100%;
+    height: 1.33333rem;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    border-top: 0.01333rem solid rgba(0, 0, 0, 0.2);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .bottom-tab .tab-item[data-v-7dd2e39c] {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bottom-tab .tab-item .item-icon[data-v-7dd2e39c] {
+    width: 0.64rem;
+    height: 0.64rem;
+    margin-bottom: 0.10667rem;
+  }
+  .bottom-tab .tab-item .item-name[data-v-7dd2e39c] {
+    color: #6a707c;
+    font-size: 0.34667rem;
+  }
+  
+  .test[data-v-c2cab3a4] {
+    width: 9.33333rem;
+    height: 0.66667rem;
+    background-color: antiquewhite;
+  }
+  .page-home[data-v-c2cab3a4] {
+    width: 100%;
+    height: 10.66667rem;
+    background-color: aquamarine;
+  }
+  
+  .page-login[data-v-385595b4] {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/login-bg.d04b0769.png) top / 100% 100% no-repeat;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1.6rem 0.66667rem 0 0.66667rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .page-login .login-form[data-v-385595b4] {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  }
+  .page-login .login-logo[data-v-385595b4] {
+    width: 2.26667rem;
+    height: 2.26667rem;
+    margin-bottom: 0.53333rem;
+  }
+  .page-login .login-title[data-v-385595b4] {
+    font-size: 0.64rem;
+    font-weight: 700;
+    color: #2c3d8f;
+    margin-bottom: 1.33333rem;
+  }
+  .page-login .login-text[data-v-385595b4] {
+    font-size: 0.53333rem;
+    color: #2c3d8f;
+    margin-bottom: 1.06667rem;
+  }
+  .page-login .login-input[data-v-385595b4] {
+    background-color: rgba(242, 222, 148, 0.45);
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    margin-bottom: 0.26667rem;
+  }
+  .page-login .login-jump[data-v-385595b4] {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 0.32rem;
+    color: #2c3d8f;
+  }
+  .page-login .login-btn[data-v-385595b4] {
+    border-radius: 0.8rem;
+    background-color: #e0b209;
+    color: #2c3d8f;
+    font-weight: bold;
+    font-size: 0.48rem;
+    border: none;
+    margin-top: 0.61333rem;
+  }
+  
+  /* 设计宽度750 默认字体大小28px   对应375宽度默认字体14px */
+  #app {
+    font-size: 0.37333rem;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  div {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  /* 页面过渡动画 */
+  .v-enter-active,
+  .v-leave-active {
+    -webkit-transition: opacity 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+  }
+  .v-enter-from,
+  .v-leave-to {
+    opacity: 0;
+    -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+            transform: scale(2);
+  }
+  .lang {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    right: 0.53333rem;
+    top: 0.8rem;
+    width: 3.33333rem;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  .lang img {
+    width: 0.66667rem;
+    height: 0.66667rem;
+    margin-right: 0.10667rem;
+    border-radius: 50%;
+  }
+  
+  
